@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+    <script src="scripts/Detector.js"></script>
+    <script src="scripts/OrbitControls.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="webgl">
+    </div>
+    <video id="video" autoplay loop webkit-playsinline style="display:none">
+			<source src="images/sample.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+</body>
+
+</html>
