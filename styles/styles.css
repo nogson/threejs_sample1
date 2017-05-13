@@ -1,0 +1,77 @@
+body {
+    padding: 50px 0;
+}
+
+section {
+    width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+input {
+    height: 30px;
+    width: 480px;
+    padding: 0 5px;
+}
+
+p {
+    text-align: left;
+}
+
+p span {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background: #1abc9c;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 2px;
+    color: #FFF;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#imgWrapper {
+    position: relative;
+}
+
+#happyPer {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 1;
+    border-radius: 100px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -50px 0 0 -50px;
+    background: #1abc9c;
+    opacity: 0.9;
+    box-sizing: border-box;
+    padding-top: 20px;
+    display: none;
+}
+
+#happyPer span.label {
+    display: block;
+}
+
+#happyPer p {
+    text-align: center;
+}
+
+#happyPer span {
+    font-size: 15px;
+    color: #FFF;
+}
